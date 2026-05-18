@@ -1,7 +1,17 @@
-# Compiled class file
+```gitignore
+# HELP file
+HELP.md
+
+# Maven / Spring Boot
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +20,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package archives
 *.jar
 *.war
 *.nar
@@ -19,6 +29,56 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# JVM crash logs
 hs_err_pid*
 replay_pid*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Database local data folders
+postgres-data/
+pgdata/
+
+# Redis local persistence
+dump.rdb
+appendonly.aof
+
+# Docker local volumes
+volumes/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+```
